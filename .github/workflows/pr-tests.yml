@@ -38,7 +38,7 @@ jobs:
         run: |
           echo "Copying test data"
           mkdir -p src/test/resources
-          cp -R hidden-tests/src/test/resources src/test/resources/
+          cp -R hidden-tests/src/test/resources/. src/test/resources/
           echo ""
           echo "Скопированы файлы:"
           find src/test/resources -type f | sort | while read f; do echo "  $f"; done
