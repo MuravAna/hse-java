@@ -242,7 +242,7 @@ public class RubiksCube implements Cube {
                 p1[2][2-j] = p2[2-j][0];
             }
             for (int j = 0; j < 3; j++) {
-                p2[2-j][0] = temp[2-j];
+                p2[2-j][0] = temp[j];
             }
 
             edges[0].setParts(p0);
