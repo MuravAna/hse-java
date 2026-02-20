@@ -27,6 +27,8 @@ public class HtmlDocument {
         }
     }
 
-    private void validate(String content){}
+    private void validate(String content){
+
+    }
 
 }
